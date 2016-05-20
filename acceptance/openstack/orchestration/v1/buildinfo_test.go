@@ -5,8 +5,8 @@ package v1
 import (
 	"testing"
 
-	"github.com/rackspace/gophercloud/openstack/orchestration/v1/buildinfo"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/suonto/gophercloud/openstack/orchestration/v1/buildinfo"
+	th "github.com/suonto/gophercloud/testhelper"
 )
 
 func TestBuildInfo(t *testing.T) {

@@ -5,10 +5,10 @@ package v3
 import (
 	"testing"
 
-	"github.com/rackspace/gophercloud"
-	endpoints3 "github.com/rackspace/gophercloud/openstack/identity/v3/endpoints"
-	services3 "github.com/rackspace/gophercloud/openstack/identity/v3/services"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/suonto/gophercloud"
+	endpoints3 "github.com/suonto/gophercloud/openstack/identity/v3/endpoints"
+	services3 "github.com/suonto/gophercloud/openstack/identity/v3/services"
+	"github.com/suonto/gophercloud/pagination"
 )
 
 func TestListEndpoints(t *testing.T) {

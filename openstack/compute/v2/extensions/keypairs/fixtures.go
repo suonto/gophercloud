@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"testing"
 
-	th "github.com/rackspace/gophercloud/testhelper"
-	"github.com/rackspace/gophercloud/testhelper/client"
+	th "github.com/suonto/gophercloud/testhelper"
+	"github.com/suonto/gophercloud/testhelper/client"
 )
 
 // ListOutput is a sample response to a List call.

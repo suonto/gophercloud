@@ -3,8 +3,8 @@ package virtualinterfaces
 import (
 	"testing"
 
-	"github.com/rackspace/gophercloud"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/suonto/gophercloud"
+	th "github.com/suonto/gophercloud/testhelper"
 )
 
 const endpoint = "http://localhost:57909/"

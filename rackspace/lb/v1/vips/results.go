@@ -3,8 +3,8 @@ package vips
 import (
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/suonto/gophercloud"
+	"github.com/suonto/gophercloud/pagination"
 )
 
 // VIP represents a Virtual IP API resource.

@@ -1,9 +1,9 @@
 package servers
 
 import (
-	"github.com/rackspace/gophercloud/openstack/compute/v2/extensions/bootfromvolume"
-	"github.com/rackspace/gophercloud/openstack/compute/v2/extensions/diskconfig"
-	os "github.com/rackspace/gophercloud/openstack/compute/v2/servers"
+	"github.com/suonto/gophercloud/openstack/compute/v2/extensions/bootfromvolume"
+	"github.com/suonto/gophercloud/openstack/compute/v2/extensions/diskconfig"
+	os "github.com/suonto/gophercloud/openstack/compute/v2/servers"
 )
 
 // CreateOpts specifies all of the options that Rackspace accepts in its Create request, including

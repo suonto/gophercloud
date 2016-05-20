@@ -3,7 +3,7 @@ package apiversions
 import (
 	"strings"
 
-	"github.com/rackspace/gophercloud"
+	"github.com/suonto/gophercloud"
 )
 
 func apiVersionsURL(c *gophercloud.ServiceClient) string {

@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rackspace/gophercloud/pagination"
-	th "github.com/rackspace/gophercloud/testhelper"
-	fake "github.com/rackspace/gophercloud/testhelper/client"
+	"github.com/suonto/gophercloud/pagination"
+	th "github.com/suonto/gophercloud/testhelper"
+	fake "github.com/suonto/gophercloud/testhelper/client"
 )
 
 func TestListCloudNetworks(t *testing.T) {

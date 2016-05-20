@@ -2,8 +2,8 @@ package vips
 
 import (
 	"github.com/mitchellh/mapstructure"
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/suonto/gophercloud"
+	"github.com/suonto/gophercloud/pagination"
 )
 
 // SessionPersistence represents the session persistence feature of the load

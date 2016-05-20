@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/rackspace/rackconnect/v3/publicips"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/suonto/gophercloud"
+	"github.com/suonto/gophercloud/rackspace/rackconnect/v3/publicips"
+	th "github.com/suonto/gophercloud/testhelper"
 )
 
 func TestPublicIPs(t *testing.T) {

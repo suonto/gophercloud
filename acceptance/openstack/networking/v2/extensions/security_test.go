@@ -5,13 +5,13 @@ package extensions
 import (
 	"testing"
 
-	base "github.com/rackspace/gophercloud/acceptance/openstack/networking/v2"
-	"github.com/rackspace/gophercloud/openstack/networking/v2/extensions/security/groups"
-	"github.com/rackspace/gophercloud/openstack/networking/v2/extensions/security/rules"
-	"github.com/rackspace/gophercloud/openstack/networking/v2/networks"
-	"github.com/rackspace/gophercloud/openstack/networking/v2/ports"
-	"github.com/rackspace/gophercloud/pagination"
-	th "github.com/rackspace/gophercloud/testhelper"
+	base "github.com/suonto/gophercloud/acceptance/openstack/networking/v2"
+	"github.com/suonto/gophercloud/openstack/networking/v2/extensions/security/groups"
+	"github.com/suonto/gophercloud/openstack/networking/v2/extensions/security/rules"
+	"github.com/suonto/gophercloud/openstack/networking/v2/networks"
+	"github.com/suonto/gophercloud/openstack/networking/v2/ports"
+	"github.com/suonto/gophercloud/pagination"
+	th "github.com/suonto/gophercloud/testhelper"
 )
 
 func TestSecurityGroups(t *testing.T) {

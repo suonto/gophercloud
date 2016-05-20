@@ -3,9 +3,9 @@ package users
 import (
 	"errors"
 
-	"github.com/rackspace/gophercloud"
-	os "github.com/rackspace/gophercloud/openstack/identity/v2/users"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/suonto/gophercloud"
+	os "github.com/suonto/gophercloud/openstack/identity/v2/users"
+	"github.com/suonto/gophercloud/pagination"
 )
 
 // List returns a pager that allows traversal over a collection of users.

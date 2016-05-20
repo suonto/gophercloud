@@ -1,10 +1,10 @@
 package services
 
 import (
-	"github.com/rackspace/gophercloud"
+	"github.com/suonto/gophercloud"
 
-	os "github.com/rackspace/gophercloud/openstack/cdn/v1/services"
-	"github.com/rackspace/gophercloud/pagination"
+	os "github.com/suonto/gophercloud/openstack/cdn/v1/services"
+	"github.com/suonto/gophercloud/pagination"
 )
 
 // List returns a Pager which allows you to iterate over a collection of

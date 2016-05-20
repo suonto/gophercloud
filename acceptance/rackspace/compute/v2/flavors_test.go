@@ -5,9 +5,9 @@ package v2
 import (
 	"testing"
 
-	"github.com/rackspace/gophercloud/pagination"
-	"github.com/rackspace/gophercloud/rackspace/compute/v2/flavors"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/suonto/gophercloud/pagination"
+	"github.com/suonto/gophercloud/rackspace/compute/v2/flavors"
+	th "github.com/suonto/gophercloud/testhelper"
 )
 
 func TestListFlavors(t *testing.T) {

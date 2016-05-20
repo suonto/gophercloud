@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/rackspace/gophercloud/testhelper"
+	"github.com/suonto/gophercloud/testhelper"
 )
 
 // MarkerPager sample and test cases.

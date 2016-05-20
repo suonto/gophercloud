@@ -3,9 +3,9 @@ package cdnobjects
 import (
 	"testing"
 
-	os "github.com/rackspace/gophercloud/openstack/objectstorage/v1/objects"
-	th "github.com/rackspace/gophercloud/testhelper"
-	fake "github.com/rackspace/gophercloud/testhelper/client"
+	os "github.com/suonto/gophercloud/openstack/objectstorage/v1/objects"
+	th "github.com/suonto/gophercloud/testhelper"
+	fake "github.com/suonto/gophercloud/testhelper/client"
 )
 
 func TestDeleteCDNObject(t *testing.T) {

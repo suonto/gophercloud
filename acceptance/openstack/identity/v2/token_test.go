@@ -5,8 +5,8 @@ package v2
 import (
 	"testing"
 
-	tokens2 "github.com/rackspace/gophercloud/openstack/identity/v2/tokens"
-	th "github.com/rackspace/gophercloud/testhelper"
+	tokens2 "github.com/suonto/gophercloud/openstack/identity/v2/tokens"
+	th "github.com/suonto/gophercloud/testhelper"
 )
 
 func TestAuthenticate(t *testing.T) {

@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"testing"
 
-	th "github.com/rackspace/gophercloud/testhelper"
-	fake "github.com/rackspace/gophercloud/testhelper/client"
+	th "github.com/suonto/gophercloud/testhelper"
+	fake "github.com/suonto/gophercloud/testhelper/client"
 )
 
 func mockListLBResponse(t *testing.T) {

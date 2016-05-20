@@ -5,11 +5,11 @@ import (
 	"net/http"
 	"testing"
 
-	fake "github.com/rackspace/gophercloud/openstack/networking/v2/common"
-	osGroups "github.com/rackspace/gophercloud/openstack/networking/v2/extensions/security/groups"
-	osRules "github.com/rackspace/gophercloud/openstack/networking/v2/extensions/security/rules"
-	"github.com/rackspace/gophercloud/pagination"
-	th "github.com/rackspace/gophercloud/testhelper"
+	fake "github.com/suonto/gophercloud/openstack/networking/v2/common"
+	osGroups "github.com/suonto/gophercloud/openstack/networking/v2/extensions/security/groups"
+	osRules "github.com/suonto/gophercloud/openstack/networking/v2/extensions/security/rules"
+	"github.com/suonto/gophercloud/pagination"
+	th "github.com/suonto/gophercloud/testhelper"
 )
 
 func TestList(t *testing.T) {

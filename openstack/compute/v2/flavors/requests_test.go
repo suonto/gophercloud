@@ -6,9 +6,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/rackspace/gophercloud/pagination"
-	th "github.com/rackspace/gophercloud/testhelper"
-	fake "github.com/rackspace/gophercloud/testhelper/client"
+	"github.com/suonto/gophercloud/pagination"
+	th "github.com/suonto/gophercloud/testhelper"
+	fake "github.com/suonto/gophercloud/testhelper/client"
 )
 
 const tokenID = "blerb"

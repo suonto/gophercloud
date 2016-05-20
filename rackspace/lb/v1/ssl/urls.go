@@ -3,7 +3,7 @@ package ssl
 import (
 	"strconv"
 
-	"github.com/rackspace/gophercloud"
+	"github.com/suonto/gophercloud"
 )
 
 const (

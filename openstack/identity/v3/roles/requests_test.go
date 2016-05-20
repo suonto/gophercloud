@@ -6,9 +6,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/rackspace/gophercloud/pagination"
-	"github.com/rackspace/gophercloud/testhelper"
-	"github.com/rackspace/gophercloud/testhelper/client"
+	"github.com/suonto/gophercloud/pagination"
+	"github.com/suonto/gophercloud/testhelper"
+	"github.com/suonto/gophercloud/testhelper/client"
 )
 
 func TestListSinglePage(t *testing.T) {

@@ -6,11 +6,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/openstack"
-	"github.com/rackspace/gophercloud/openstack/blockstorage/v1/volumes"
-	"github.com/rackspace/gophercloud/pagination"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/suonto/gophercloud"
+	"github.com/suonto/gophercloud/openstack"
+	"github.com/suonto/gophercloud/openstack/blockstorage/v1/volumes"
+	"github.com/suonto/gophercloud/pagination"
+	th "github.com/suonto/gophercloud/testhelper"
 )
 
 func newClient(t *testing.T) (*gophercloud.ServiceClient, error) {

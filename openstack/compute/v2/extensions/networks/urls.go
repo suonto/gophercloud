@@ -1,6 +1,6 @@
 package networks
 
-import "github.com/rackspace/gophercloud"
+import "github.com/suonto/gophercloud"
 
 const resourcePath = "os-networks"
 

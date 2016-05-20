@@ -3,10 +3,10 @@ package users
 import (
 	"testing"
 
-	os "github.com/rackspace/gophercloud/openstack/identity/v2/users"
-	"github.com/rackspace/gophercloud/pagination"
-	th "github.com/rackspace/gophercloud/testhelper"
-	"github.com/rackspace/gophercloud/testhelper/client"
+	os "github.com/suonto/gophercloud/openstack/identity/v2/users"
+	"github.com/suonto/gophercloud/pagination"
+	th "github.com/suonto/gophercloud/testhelper"
+	"github.com/suonto/gophercloud/testhelper/client"
 )
 
 func TestList(t *testing.T) {

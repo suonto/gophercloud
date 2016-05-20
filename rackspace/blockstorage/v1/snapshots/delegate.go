@@ -3,10 +3,10 @@ package snapshots
 import (
 	"errors"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/suonto/gophercloud"
+	"github.com/suonto/gophercloud/pagination"
 
-	os "github.com/rackspace/gophercloud/openstack/blockstorage/v1/snapshots"
+	os "github.com/suonto/gophercloud/openstack/blockstorage/v1/snapshots"
 )
 
 func updateURL(c *gophercloud.ServiceClient, id string) string {

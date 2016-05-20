@@ -5,10 +5,10 @@ package v1
 import (
 	"testing"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
-	"github.com/rackspace/gophercloud/rackspace/blockstorage/v1/volumetypes"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/suonto/gophercloud"
+	"github.com/suonto/gophercloud/pagination"
+	"github.com/suonto/gophercloud/rackspace/blockstorage/v1/volumetypes"
+	th "github.com/suonto/gophercloud/testhelper"
 )
 
 func TestAll(t *testing.T) {

@@ -3,9 +3,9 @@ package stacktemplates
 import (
 	"testing"
 
-	os "github.com/rackspace/gophercloud/openstack/orchestration/v1/stacktemplates"
-	th "github.com/rackspace/gophercloud/testhelper"
-	fake "github.com/rackspace/gophercloud/testhelper/client"
+	os "github.com/suonto/gophercloud/openstack/orchestration/v1/stacktemplates"
+	th "github.com/suonto/gophercloud/testhelper"
+	fake "github.com/suonto/gophercloud/testhelper/client"
 )
 
 func TestGetTemplate(t *testing.T) {

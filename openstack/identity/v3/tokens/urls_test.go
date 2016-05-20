@@ -3,8 +3,8 @@ package tokens
 import (
 	"testing"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/testhelper"
+	"github.com/suonto/gophercloud"
+	"github.com/suonto/gophercloud/testhelper"
 )
 
 func TestTokenURL(t *testing.T) {

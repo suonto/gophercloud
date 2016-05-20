@@ -3,11 +3,11 @@ package volumes
 import (
 	"testing"
 
-	"github.com/rackspace/gophercloud/openstack/blockstorage/v1/volumes"
-	os "github.com/rackspace/gophercloud/openstack/blockstorage/v1/volumes/testing"
-	"github.com/rackspace/gophercloud/pagination"
-	th "github.com/rackspace/gophercloud/testhelper"
-	fake "github.com/rackspace/gophercloud/testhelper/client"
+	"github.com/suonto/gophercloud/openstack/blockstorage/v1/volumes"
+	os "github.com/suonto/gophercloud/openstack/blockstorage/v1/volumes/testing"
+	"github.com/suonto/gophercloud/pagination"
+	th "github.com/suonto/gophercloud/testhelper"
+	fake "github.com/suonto/gophercloud/testhelper/client"
 )
 
 func TestList(t *testing.T) {

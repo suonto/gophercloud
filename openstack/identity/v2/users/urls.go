@@ -1,6 +1,6 @@
 package users
 
-import "github.com/rackspace/gophercloud"
+import "github.com/suonto/gophercloud"
 
 const (
 	tenantPath = "tenants"

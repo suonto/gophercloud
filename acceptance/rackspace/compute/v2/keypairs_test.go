@@ -5,12 +5,12 @@ package v2
 import (
 	"testing"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/acceptance/tools"
-	os "github.com/rackspace/gophercloud/openstack/compute/v2/extensions/keypairs"
-	"github.com/rackspace/gophercloud/pagination"
-	"github.com/rackspace/gophercloud/rackspace/compute/v2/keypairs"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/suonto/gophercloud"
+	"github.com/suonto/gophercloud/acceptance/tools"
+	os "github.com/suonto/gophercloud/openstack/compute/v2/extensions/keypairs"
+	"github.com/suonto/gophercloud/pagination"
+	"github.com/suonto/gophercloud/rackspace/compute/v2/keypairs"
+	th "github.com/suonto/gophercloud/testhelper"
 )
 
 func deleteKeyPair(t *testing.T, client *gophercloud.ServiceClient, name string) {

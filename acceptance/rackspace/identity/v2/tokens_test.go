@@ -6,11 +6,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/acceptance/tools"
-	"github.com/rackspace/gophercloud/rackspace"
-	"github.com/rackspace/gophercloud/rackspace/identity/v2/tokens"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/suonto/gophercloud"
+	"github.com/suonto/gophercloud/acceptance/tools"
+	"github.com/suonto/gophercloud/rackspace"
+	"github.com/suonto/gophercloud/rackspace/identity/v2/tokens"
+	th "github.com/suonto/gophercloud/testhelper"
 )
 
 func rackspaceAuthOptions(t *testing.T) gophercloud.AuthOptions {

@@ -5,9 +5,9 @@ package v2
 import (
 	"testing"
 
-	"github.com/rackspace/gophercloud/pagination"
-	extensions2 "github.com/rackspace/gophercloud/rackspace/identity/v2/extensions"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/suonto/gophercloud/pagination"
+	extensions2 "github.com/suonto/gophercloud/rackspace/identity/v2/extensions"
+	th "github.com/suonto/gophercloud/testhelper"
 )
 
 func TestExtensions(t *testing.T) {

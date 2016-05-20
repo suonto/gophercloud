@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/rackspace/gophercloud/openstack/objectstorage/v1/accounts"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/suonto/gophercloud/openstack/objectstorage/v1/accounts"
+	th "github.com/suonto/gophercloud/testhelper"
 )
 
 func TestAccounts(t *testing.T) {

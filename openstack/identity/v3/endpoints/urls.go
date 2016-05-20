@@ -1,6 +1,6 @@
 package endpoints
 
-import "github.com/rackspace/gophercloud"
+import "github.com/suonto/gophercloud"
 
 func listURL(client *gophercloud.ServiceClient) string {
 	return client.ServiceURL("endpoints")

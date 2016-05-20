@@ -1,6 +1,6 @@
 package lbpools
 
-import "github.com/rackspace/gophercloud"
+import "github.com/suonto/gophercloud"
 
 var root = "load_balancer_pools"
 

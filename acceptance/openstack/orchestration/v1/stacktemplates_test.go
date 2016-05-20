@@ -5,10 +5,10 @@ package v1
 import (
 	"testing"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/openstack/orchestration/v1/stacks"
-	"github.com/rackspace/gophercloud/openstack/orchestration/v1/stacktemplates"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/suonto/gophercloud"
+	"github.com/suonto/gophercloud/openstack/orchestration/v1/stacks"
+	"github.com/suonto/gophercloud/openstack/orchestration/v1/stacktemplates"
+	th "github.com/suonto/gophercloud/testhelper"
 )
 
 func TestStackTemplates(t *testing.T) {

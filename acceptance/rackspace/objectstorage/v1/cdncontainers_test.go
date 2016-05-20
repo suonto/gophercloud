@@ -5,11 +5,11 @@ package v1
 import (
 	"testing"
 
-	osContainers "github.com/rackspace/gophercloud/openstack/objectstorage/v1/containers"
-	"github.com/rackspace/gophercloud/pagination"
-	raxCDNContainers "github.com/rackspace/gophercloud/rackspace/objectstorage/v1/cdncontainers"
-	raxContainers "github.com/rackspace/gophercloud/rackspace/objectstorage/v1/containers"
-	th "github.com/rackspace/gophercloud/testhelper"
+	osContainers "github.com/suonto/gophercloud/openstack/objectstorage/v1/containers"
+	"github.com/suonto/gophercloud/pagination"
+	raxCDNContainers "github.com/suonto/gophercloud/rackspace/objectstorage/v1/cdncontainers"
+	raxContainers "github.com/suonto/gophercloud/rackspace/objectstorage/v1/containers"
+	th "github.com/suonto/gophercloud/testhelper"
 )
 
 func TestCDNContainers(t *testing.T) {

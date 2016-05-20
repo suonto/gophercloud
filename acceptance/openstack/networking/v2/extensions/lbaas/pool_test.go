@@ -5,10 +5,10 @@ package lbaas
 import (
 	"testing"
 
-	base "github.com/rackspace/gophercloud/acceptance/openstack/networking/v2"
-	"github.com/rackspace/gophercloud/openstack/networking/v2/extensions/lbaas/pools"
-	"github.com/rackspace/gophercloud/pagination"
-	th "github.com/rackspace/gophercloud/testhelper"
+	base "github.com/suonto/gophercloud/acceptance/openstack/networking/v2"
+	"github.com/suonto/gophercloud/openstack/networking/v2/extensions/lbaas/pools"
+	"github.com/suonto/gophercloud/pagination"
+	th "github.com/suonto/gophercloud/testhelper"
 )
 
 func TestPools(t *testing.T) {

@@ -6,10 +6,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/openstack/compute/v2/extensions/networks"
-	"github.com/rackspace/gophercloud/openstack/compute/v2/servers"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/suonto/gophercloud"
+	"github.com/suonto/gophercloud/openstack/compute/v2/extensions/networks"
+	"github.com/suonto/gophercloud/openstack/compute/v2/servers"
+	th "github.com/suonto/gophercloud/testhelper"
 )
 
 func getNetworkIDFromNetworkExtension(t *testing.T, client *gophercloud.ServiceClient, networkName string) (string, error) {

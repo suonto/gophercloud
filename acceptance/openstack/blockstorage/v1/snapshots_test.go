@@ -5,10 +5,10 @@ package v1
 import (
 	"testing"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/openstack/blockstorage/v1/snapshots"
-	"github.com/rackspace/gophercloud/openstack/blockstorage/v1/volumes"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/suonto/gophercloud"
+	"github.com/suonto/gophercloud/openstack/blockstorage/v1/snapshots"
+	"github.com/suonto/gophercloud/openstack/blockstorage/v1/volumes"
+	th "github.com/suonto/gophercloud/testhelper"
 )
 
 func TestSnapshots(t *testing.T) {

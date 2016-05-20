@@ -1,6 +1,6 @@
 package policies
 
-import "github.com/rackspace/gophercloud"
+import "github.com/suonto/gophercloud"
 
 const (
 	rootPath     = "fw"

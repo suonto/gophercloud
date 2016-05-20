@@ -1,9 +1,9 @@
 package rules
 
 import (
-	"github.com/rackspace/gophercloud"
-	os "github.com/rackspace/gophercloud/openstack/networking/v2/extensions/security/rules"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/suonto/gophercloud"
+	os "github.com/suonto/gophercloud/openstack/networking/v2/extensions/security/rules"
+	"github.com/suonto/gophercloud/pagination"
 )
 
 // List returns a Pager which allows you to iterate over a collection of

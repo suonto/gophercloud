@@ -5,15 +5,15 @@ package extensions
 import (
 	"testing"
 
-	base "github.com/rackspace/gophercloud/acceptance/openstack/networking/v2"
-	"github.com/rackspace/gophercloud/openstack/networking/v2/extensions/external"
-	"github.com/rackspace/gophercloud/openstack/networking/v2/extensions/layer3/floatingips"
-	"github.com/rackspace/gophercloud/openstack/networking/v2/extensions/layer3/routers"
-	"github.com/rackspace/gophercloud/openstack/networking/v2/networks"
-	"github.com/rackspace/gophercloud/openstack/networking/v2/ports"
-	"github.com/rackspace/gophercloud/openstack/networking/v2/subnets"
-	"github.com/rackspace/gophercloud/pagination"
-	th "github.com/rackspace/gophercloud/testhelper"
+	base "github.com/suonto/gophercloud/acceptance/openstack/networking/v2"
+	"github.com/suonto/gophercloud/openstack/networking/v2/extensions/external"
+	"github.com/suonto/gophercloud/openstack/networking/v2/extensions/layer3/floatingips"
+	"github.com/suonto/gophercloud/openstack/networking/v2/extensions/layer3/routers"
+	"github.com/suonto/gophercloud/openstack/networking/v2/networks"
+	"github.com/suonto/gophercloud/openstack/networking/v2/ports"
+	"github.com/suonto/gophercloud/openstack/networking/v2/subnets"
+	"github.com/suonto/gophercloud/pagination"
+	th "github.com/suonto/gophercloud/testhelper"
 )
 
 const (
